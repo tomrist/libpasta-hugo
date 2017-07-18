@@ -2,3 +2,4 @@ baseURL = "https://libpasta.github.io/"
 languageCode = "en-gb"
 title = "libpasta"
 theme = "hugo-theme-learn"
+PygmentsCodeFences = true
