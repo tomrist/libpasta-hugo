@@ -5,6 +5,14 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
+# Check HTML is working
+htmlproofer public/ --allow-hash-href
+if [ ! $? -eq 0 ]
+  then
+  echo -e "\033[0;31mIssues with HTML, exiting.\033[0m"
+  exit $?
+fi
+
 # Go To Public folder
 cd public
 # Add changes to git.
