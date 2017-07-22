@@ -50,7 +50,7 @@ The tuning tool measures the performance of your system to suggest parameters.
 As a safeguard, the tool also estimates the parameters based off of the 
 specifications of the system, to avoid mistakenly suggesting lower parameters.
 
-See [tuning](../../tuning) for more details.
+See [tuning](../../advanced/tuning) for more details.
 
 #### Cross-platform and cross-language
 

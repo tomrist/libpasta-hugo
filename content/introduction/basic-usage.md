@@ -5,8 +5,8 @@ weight = 5
 
 +++
 
-The following examples are for the core library written in Rust. See [other languages](../../other-
-languages/) for language bindings and examples. Where possible, the APIs exported by libpasta are
+The following examples are for the core library written in Rust. See [other languages](../../other-languages/)
+for language bindings and examples. Where possible, the APIs exported by libpasta are
 identical to those used in the Rust library.
 
 ### Password Hashes
@@ -31,7 +31,7 @@ fn main() {
 The above code randomly generates a seed, and outputs the hash in the following format:
 `$$argon2i$m=4096,t=3,p=1$P7ckzVebJQZCacmRdOdd1g$NNPTr2du3PQbGWUQF9+ZzAaIZKA/FlwJRR+TQ/h0Pq8`.
 
-Details for how this is serialized can be found in the [technical details chapter](../../technical-details/phc-string-format/). This adheres to libpasta's [strong defaults](../../features/strong-defaults) principle. 
+Details for how this is serialized can be found in the [technical details chapter](../../technical-details/phc-string-format/). This adheres to libpasta's [strong defaults](../what-is-libpasta#secure-by-default) principle. 
 
 #### Verifying passwords
 
