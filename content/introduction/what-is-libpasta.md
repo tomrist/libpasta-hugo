@@ -30,7 +30,7 @@ For more details, see [algorithm choice](../../technical-details/algorithm-choic
 
 Many developers still use insecure password hashing systems, despite it causing
 embarassing and significant vulnerabilities should a leak occur.  
-Our aim is to help eveyrone adopt modern algorithms and
+Our aim is to help everyone adopt modern algorithms and
 associated best practices. Hence we have designed `libpasta` to come with 
 built-in support for easy password migration.
 
@@ -46,7 +46,7 @@ details.
 
 #### Tuning tools
 
-Passwording hashing is relatively slow by design,
+Password hashing is relatively slow by design,
 and setting parameters (the cost of computing the hash) too low can be a
 vulnerability. Of course this has to be balanced against performance of your
 `libpasta`-using application.
@@ -54,7 +54,7 @@ For times when the default parameters are not sufficient, `libpasta` helps
 developers pick good parameters.
 
 The tuning tool measures the performance of your system to suggest parameters,
-as well as doing some sanity checks based on the specifictions of the system.
+as well as doing some sanity checks based on the specifications of the system.
 The tool will help you avoid setting parameters too aggressively 
 
 See [tuning](../../advanced/tuning) for more details.
